@@ -1,0 +1,62 @@
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints
+
+# --- Distribution / packaging ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Logs & outputs ---
+*.log
+*.out
+*.err
+
+# --- IDE / editor files ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Data / models (optional: comment out if you want them tracked) ---
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.joblib
+*.npy
+*.npz
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.pickle
+*.db
+
+# --- Large experiment artifacts ---
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
