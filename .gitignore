@@ -61,3 +61,8 @@ wandb/
 mlruns/
 tensorboard/
 lightning_logs/
+
+# ignore virtualenvs
+Transformer/venv310/
+venv/
+.venv/
